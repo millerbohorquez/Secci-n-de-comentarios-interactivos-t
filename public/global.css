@@ -62,8 +62,10 @@ button:hover{
     margin: auto;
     margin-top: 1rem;
 }
+
 .comment{
     margin-bottom: 1rem;
+    padding: 1.5rem;
     display: grid;
     grid-template-areas: 
         "score user controls"
@@ -74,7 +76,10 @@ button:hover{
     gap: 1.5rem;
     row-gap: 1rem;
     color: var(--Grayish-Blue);
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
 }
+
 
 .c-score{
     color: var(--Moderate-blue);
@@ -276,21 +281,26 @@ button:hover{
 }
 .modal button{
     color: var(--White);
-    padding: .75rem;
+    padding: 0.2rem 2rem 0.2rem 2rem;
     border-radius: 8px;
     border: none;
-    font-weight: 500;
+    
 }
 .modal p{
     grid-area: body;
     color: var(--Grayish-Blue);
-    line-height: 1.5;
+    
 }
 .modal .yes{
-    grid-area: yes;
+  
     background-color: var(--Soft-Red);
 }
 .modal .no{
     background-color: var(--Grayish-Blue);
-    grid-area: no;
+  
+}
+
+.elm{
+    display: flex;
+    gap: 1rem;
 }
