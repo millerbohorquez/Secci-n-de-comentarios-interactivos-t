@@ -52,6 +52,7 @@ button:hover{
     border-radius: 8px;
     padding: 1.5rem;
     background-color: var(--White);
+    
 }
 .comments-wrp {
     display: flex;
@@ -168,6 +169,9 @@ button:hover{
     justify-items: center;
     gap: 1rem;
     min-height: 9rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 .reply-input img{
     grid-area: avatar;
